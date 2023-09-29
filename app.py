@@ -61,4 +61,4 @@ if __name__ == "__main__":
     # Ensure that the database creation code is executed within the app context
 
     # Run the Flask application
-    app.run()
+    app.run(debug=True, port=5555)
